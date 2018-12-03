@@ -301,3 +301,10 @@ $ docker stack services elk
 
 **NOTE:** to scale Elasticsearch in Swarm mode, configure *zen* to use the DNS name `tasks.elasticsearch` instead of
 `elasticsearch`.
+
+
+## CUSTOMIZATION
+
+We need to install logstash on every instance from where we want to extract log files
+
+The example `filebeat.yml` configuration file is also shared here.
